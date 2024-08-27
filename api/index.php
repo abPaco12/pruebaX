@@ -1,7 +1,7 @@
 <?php
 //http://localhost/server/proy18/api/?ruta=oso
 header("Content-type: application/json");
-$bbd=new mysqli("localhost","root","","pluscar");
+$bbd=new mysqli("localhost","root","redes2024","pluscar");
 /*if(isset($_GET["ruta"])){$ruta=$_GET["ruta"];}else{$ruta="";}*/
 
 $tam=strlen(dirname($_SERVER["SCRIPT_NAME"]));
